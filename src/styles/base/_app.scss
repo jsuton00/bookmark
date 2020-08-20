@@ -1,0 +1,24 @@
+.app {
+  width: 100%;
+  height: 100vh;
+  padding: 0;
+  margin: 0 auto;
+  overflow-x: hidden;
+  &-header,
+  &-footer {
+    width: 100%;
+    min-height: 12.8vh;
+    height: 12.8vh;
+    max-height: 12.8vh;
+    margin: 0;
+  }
+  &-main {
+    width: 100%;
+    min-height: calc(100vh - (12.8vh * 2));
+    margin: 12.8vmin 0;
+  }
+  &-footer {
+    background-color: $footer-bg-colour;
+    color: white;
+  }
+}

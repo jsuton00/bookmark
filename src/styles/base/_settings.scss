@@ -1,0 +1,41 @@
+//fonts
+//font-family
+$rubik: 'Rubik', sans-serif;
+
+//font-weight
+$rubik-normal: 400;
+$rubik-medium: 500;
+
+//font-sizes
+$font-size-xxs: 0.73vw;
+$font-size-xs: 0.88vw;
+$font-size-sm: 1.02vw;
+$font-size-base: 1.17vw;
+$font-size-md: 1.32vw;
+$font-size-lg: 1.46vw;
+$font-size-xl: 1.76vw;
+$font-size-xxl: 2.05vw;
+
+//theme
+$btn-primary-colour: $softblue;
+$btn-secondary-colour: $whitesmoke;
+$login-button-colour: $softred;
+$contact-button-colour: $softred;
+$tab-button-outline-colour: $softred;
+$contact-bg-colour: $softblue;
+$footer-bg-colour: $very-dark-blue;
+$error-validation-colour: $softred;
+$link-hover-colour: $softred;
+
+//spacing settings
+$spacing-primary: 0.0625rem;
+$spacing-secondary: 0.125rem;
+$spacing-tertiary: 0.1875rem;
+$spacing-xxs: 0.25rem;
+$spacing-xs: 0.3125rem;
+$spacing-sm: 0.5rem;
+$spacing-md: 0.75rem;
+$spacing-base: 1rem;
+$spacing-lg: 1.25rem;
+$spacing-xl: 1.5rem;
+$spacing-xxl: 2rem;
