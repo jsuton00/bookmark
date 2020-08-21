@@ -47,3 +47,16 @@ export const GetItOnButtons = () => {
     </>
   );
 };
+
+export const MoreInfoButton = () => {
+  return (
+    <button
+      id="btn-more-info"
+      name="btn-more-info"
+      type="button"
+      className="more-info-button"
+    >
+      More Info
+    </button>
+  );
+};

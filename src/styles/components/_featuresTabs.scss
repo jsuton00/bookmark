@@ -1,0 +1,89 @@
+.features {
+  &-section {
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    &-tabs {
+      justify-content: center;
+      align-items: center;
+      width: 100%;
+      height: 100%;
+      padding: $spacing-sm;
+    }
+  }
+  &-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3,
+    p {
+      text-align: center;
+    }
+
+    h3 {
+      font-weight: $rubik-medium;
+      color: $very-dark-blue;
+      padding: $spacing-base;
+    }
+    p {
+      width: 43vmax;
+      padding: $spacing-sm;
+      color: $grayish-blue;
+      font-weight: $rubik-medium;
+    }
+  }
+}
+
+.features-tabs {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: $spacing-base;
+}
+
+.feature-tab {
+  background-color: transparent !important;
+  border-bottom: $spacing-primary solid $grayish-blue !important;
+  border-radius: 0 !important;
+  font-weight: $rubik-medium !important;
+  color: $very-dark-blue !important;
+  padding: $spacing-base !important;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent !important;
+    border-bottom: $spacing-secondary solid $softred !important;
+    color: $very-dark-blue !important;
+  }
+}
+
+.features-tab {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: $spacing-base;
+}
+
+.simple-bookmarking,
+.speedy-searching,
+.easy-sharing {
+  flex-basis: 48%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+.tab-content {
+  width: 100%;
+  height: 100%;
+  padding: $spacing-xxs;
+}

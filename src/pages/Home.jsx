@@ -1,6 +1,7 @@
 import React from 'react';
 import hero from '../assets/img/bg-img/illustration-hero.svg';
 import { GetItOnButtons } from '../components/Buttons';
+import FeaturesTabs from '../components/FeaturesTabs';
 
 export default function Home() {
   return (
@@ -37,7 +38,7 @@ export default function Home() {
           </p>
         </div>
         <div id="features-section-tabs" className="features-section-tabs row">
-          Features Tabs
+          <FeaturesTabs />
         </div>
       </div>
       <div

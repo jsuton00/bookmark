@@ -37,3 +37,11 @@
     background-color: transparent;
   }
 }
+
+.more-info-button {
+  background-color: $btn-primary-colour;
+  border: $spacing-primary solid $btn-primary-colour;
+  border-radius: $spacing-sm;
+  padding: $spacing-md $spacing-lg;
+  color: #fff;
+}
