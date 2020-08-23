@@ -1,7 +1,9 @@
 import React from 'react';
 import hero from '../assets/img/bg-img/illustration-hero.svg';
+import BrowserCards from '../components/BrowserCards';
 import { GetItOnButtons } from '../components/Buttons';
 import FeaturesTabs from '../components/FeaturesTabs';
+import QuestionsAnswers from '../components/QuestionsAnswers';
 
 export default function Home() {
   return (
@@ -45,7 +47,31 @@ export default function Home() {
         id="download-extensions-section"
         className="download-extensions-section row"
       >
-        Download extensions section
+        <div
+          id="download-extensions-heading"
+          className="download-extensions-heading col-12"
+        >
+          <h3>Download the extension</h3>
+          <p>
+            We've got more browsers in the pipeline. Please do let us know if
+            you've got a favourite you'd like us to prioritize.
+          </p>
+        </div>
+        <div id="download-cards-row" className="download-cards-row">
+          <BrowserCards />
+        </div>
+      </div>
+      <div id="faq-section" className="faq-section row">
+        <div className="faq-section-heading col-12">
+          <h3>Frequently Asked Questions</h3>
+          <p>
+            Here are some of our FAQs. If you have any questions you'd like
+            answered please feel free to email us.
+          </p>
+        </div>
+        <div className="faq-section-row row">
+          <QuestionsAnswers />
+        </div>
       </div>
     </div>
   );

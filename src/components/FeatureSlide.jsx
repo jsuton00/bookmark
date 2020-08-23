@@ -20,7 +20,9 @@ export const SimpleBookmarking = () => {
             interface gives you complete control over how you manage your
             favourite sites.
           </p>
-          <MoreInfoButton />
+          <div className="tab-content-button row">
+            <MoreInfoButton />
+          </div>
         </div>
       </div>
     </div>
@@ -42,8 +44,10 @@ export const SpeedySearching = () => {
             Our powerful search feature will help you find saved sites in no
             time at all. No need to crawl through all of your bookmarks.
           </p>
+          <div className="tab-content-button row">
+            <MoreInfoButton />
+          </div>
         </div>
-        <MoreInfoButton />
       </div>
     </div>
   );
@@ -60,12 +64,14 @@ export const EasySharing = () => {
       <div className="easy-sharing col-6">
         <div className="tab-content content-right">
           <h4 className="tab-content-title row">Share your bookmarks</h4>
-          <p>
+          <p className="tab-content-text-row">
             Easily share your bookmarks and collections with others. Create a
             shareable link that you can send at the click of a button.
           </p>
+          <div className="tab-content-button row">
+            <MoreInfoButton />
+          </div>
         </div>
-        <MoreInfoButton />
       </div>
     </div>
   );

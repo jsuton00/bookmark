@@ -87,3 +87,34 @@
   height: 100%;
   padding: $spacing-xxs;
 }
+
+.content {
+  &-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  &-right {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    h4 {
+      font-weight: $rubik-medium;
+      color: $very-dark-blue;
+    }
+    p {
+      font-weight: $rubik-medium;
+      color: $grayish-blue;
+    }
+  }
+}
+
+.tab-content-title,
+.tab-content-text,
+.tab-content-button {
+  padding: $spacing-sm $spacing-base $spacing-sm 0;
+  margin: $spacing-xxs 0;
+}

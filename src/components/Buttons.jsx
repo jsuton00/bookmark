@@ -1,3 +1,5 @@
+import { faAngleDown } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import React, { useState } from 'react';
 import { useEffect } from 'react';
 
@@ -57,6 +59,46 @@ export const MoreInfoButton = () => {
       className="more-info-button"
     >
       More Info
+    </button>
+  );
+};
+
+export const DownloadButton = (props) => {
+  const { clickHandler } = props;
+
+  return (
+    <button
+      id="btn-download"
+      name="btn-download"
+      type="button"
+      className="btn-download"
+      onClick={clickHandler}
+    >
+      {'Add & Install Extension'}
+    </button>
+  );
+};
+
+export const ToggleButton = (props) => {
+  const { toggle } = props;
+  return (
+    <span className="btn-toggle" aria-label="Toggle FAQs">
+      <FontAwesomeIcon icon={faAngleDown} flip={toggle} size="1x" />
+    </span>
+  );
+};
+
+export const ContactButton = (props) => {
+  const { submitHandler } = props;
+  return (
+    <button
+      id="btnSubmit"
+      name="btnSubmit"
+      type="button"
+      className="btn-contact"
+      onClick={submitHandler}
+    >
+      Contact Us
     </button>
   );
 };

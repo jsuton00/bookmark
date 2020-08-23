@@ -1,0 +1,94 @@
+.faq-section {
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  &-heading {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    h3,
+    p {
+      text-align: center;
+    }
+    h3 {
+      font-weight: $rubik-medium;
+      color: $very-dark-blue;
+      padding: $spacing-base;
+    }
+    p {
+      width: 43vmax;
+      padding: $spacing-sm;
+      color: $grayish-blue;
+      font-weight: $rubik-medium;
+    }
+  }
+  &-row {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    padding: $spacing-base;
+  }
+}
+
+.faq {
+  &-list {
+    min-width: 22.5rem;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+  }
+  &-card {
+    border: 0;
+    width: 100%;
+    height: 100%;
+  }
+  &-question {
+    border-top: $spacing-secondary solid $whitesmoke !important;
+    border-bottom: $spacing-secondary solid $whitesmoke !important;
+    background-color: transparent !important;
+    justify-content: space-between;
+    align-items: center;
+    padding: $spacing-base $spacing-xxl;
+    color: $very-dark-blue;
+    font-size: $font-size-md;
+    font-weight: $rubik-medium;
+
+    span {
+      cursor: pointer;
+      color: $softblue;
+      padding: $spacing-xxs;
+      font-size: $font-size-lg;
+    }
+  }
+  &-answers {
+    justify-content: center;
+    align-items: center;
+    padding: $spacing-sm;
+    &-body {
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
+
+.more-info-button-row {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  padding: $spacing-base;
+
+  button {
+    min-width: 22.5rem;
+    width: 100%;
+    max-width: 100%;
+    padding: $spacing-md $spacing-lg;
+    margin: 0 auto;
+  }
+}

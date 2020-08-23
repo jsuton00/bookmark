@@ -44,4 +44,27 @@
   border-radius: $spacing-sm;
   padding: $spacing-md $spacing-lg;
   color: #fff;
+  &:hover,
+  &:focus,
+  &:active {
+    background-color: transparent;
+    border: $spacing-secondary solid $btn-primary-colour;
+    color: $btn-primary-colour;
+  }
+}
+
+.btn-download {
+  border: $spacing-primary solid $btn-primary-colour;
+  border-radius: $spacing-sm;
+  background-color: $btn-primary-colour;
+  color: #fff;
+  width: 100%;
+  padding: $spacing-md $spacing-lg;
+  &:hover,
+  &:focus,
+  &:active {
+    border: $spacing-secondary solid $btn-primary-colour;
+    background-color: transparent;
+    color: $btn-primary-colour;
+  }
 }
